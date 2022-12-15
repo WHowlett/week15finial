@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '../../components/layout';
-import { getAllIds, getData } from '../../lib/info';
+import { getAllIds, getData } from '../../lib/work';
 import Link from 'next/link';
 
 export async function getStaticProps({ params }) {
