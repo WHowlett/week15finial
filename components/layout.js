@@ -17,19 +17,19 @@ export default function Layout( { children, home } ) {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <Link href="/blogs/blog">
+          <a class="nav-link">Blogs</a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blogs/blog">Blogs</a>
+        <Link href="/project/project">
+          <a class="nav-link">Project</a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/project/project">Project</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/information/info">Information</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+        <Link href="/information/info">
+          <a class="nav-link">Information</a>
+          </Link>
         </li>
       </ul>
     </div>
