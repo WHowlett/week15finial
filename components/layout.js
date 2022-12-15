@@ -18,17 +18,17 @@ export default function Layout( { children, home } ) {
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <Link href="/blogs/blog">
-          <a class="nav-link">Blogs</a>
+          <p class="nav-link">Blogs</p>
           </Link>
         </li>
         <li class="nav-item">
         <Link href="/project/project">
-          <a class="nav-link">Project</a>
+          <p class="nav-link">Project</p>
           </Link>
         </li>
         <li class="nav-item">
         <Link href="/information/info">
-          <a class="nav-link">Information</a>
+          <p class="nav-link">Information</p>
           </Link>
         </li>
       </ul>
@@ -39,7 +39,7 @@ export default function Layout( { children, home } ) {
       <main>{children}</main>
       {!home && (
           <Link href="/">
-            <a className="btn btn-primary mt-3">← Back to home</a>
+            <p className="btn btn-primary mt-3">← Back to home</p>
           </Link>
         )
       }
